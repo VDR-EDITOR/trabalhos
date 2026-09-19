@@ -9,8 +9,9 @@
 </head>
 <body>
 <header class="site-header">
-  <a class="logo" href="#inicio"><span>v</span> @vdr_byeditor</a>
-  <nav><a href="#trabalhos">Trabalhos</a><a href="#sobre">Sobre</a><button class="contact-mini open-contact" type="button">Entrar em contato</button></nav>
+  <a class="logo" href="#inicio"><img class="logo-avatar" src="assets/vitor-editor.jpg" alt="Foto de Vitor"> @vdr_byeditor</a>
+  <nav id="site-nav"><a href="#trabalhos">Trabalhos</a><a href="#sobre">Sobre</a><button class="contact-mini open-contact" type="button">Entrar em contato</button></nav>
+  <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-controls="site-nav" aria-expanded="false"><span></span><span></span><span></span></button>
 </header>
 
 <main>
@@ -38,7 +39,7 @@
       <article class="project-tile two"><button class="cover-ui open-video" type="button" data-video="sMjXAIPmvq0" data-title="Canais de distribuição"><img src="assets/thumbnails/canais-distribuicao.jpg" alt="Capa do vídeo Canais de distribuição"><div class="cover-head"><span>VDR / 02</span><span>00:47</span></div><span class="project-play">▶</span></button><div class="tile-info"><div><span>REELS / NEGÓCIOS</span><h3>Canais de distribuição</h3><p>Fernando Ramalho · Edição educativa · Elementos gráficos</p></div><button class="open-video" type="button" data-video="sMjXAIPmvq0" data-title="Canais de distribuição" aria-label="Assistir Canais de distribuição">↗</button></div></article>
       <article class="project-tile three"><button class="cover-ui open-video" type="button" data-video="6Lj0cHXwM4Y" data-title="Combo Estratégico"><img src="assets/thumbnails/combo-estrategico.jpg" alt="Capa do vídeo Combo Estratégico"><div class="cover-head"><span>VDR / 03</span><span>00:27</span></div><span class="project-play">▶</span></button><div class="tile-info"><div><span>REELS / PRODUTO</span><h3>Combo Estratégico</h3><p>Produto · Motion · Sound design</p></div><button class="open-video" type="button" data-video="6Lj0cHXwM4Y" data-title="Combo Estratégico" aria-label="Assistir Combo Estratégico">↗</button></div></article>
       <article class="project-tile four"><button class="cover-ui open-video" type="button" data-video="N7VnEPO7PxE" data-title="Seu vídeo pode mais"><img src="assets/thumbnails/vdr-conceitual.jpg" alt="Capa do vídeo Seu vídeo pode mais"><div class="cover-head"><span>VDR / 04</span><span>00:43</span></div><span class="project-play">▶</span></button><div class="tile-info"><div><span>MOTION / AUTORAL</span><h3>Seu vídeo pode mais</h3><p>Vídeo autoral · Motion · Sound design</p></div><button class="open-video" type="button" data-video="N7VnEPO7PxE" data-title="Seu vídeo pode mais" aria-label="Assistir Seu vídeo pode mais">↗</button></div></article>
-    </div><p class="portfolio-note">Frames escolhidos dos próprios vídeos · toque para assistir sem sair do site.</p>
+    </div>
   </section>
 
   <section class="method"><p class="eyebrow">O MÉTODO POR TRÁS DO RESULTADO</p><h2>Não é só cortar.<br><span>É saber por que cortar.</span></h2><div class="pillars"><article><b>01</b><h3>Narrativa clara</h3><p>Organizo cada ideia para a mensagem ser entendida sem esforço.</p></article><article><b>02</b><h3>Ritmo que retém</h3><p>Cortes, pausas e mudanças visuais usados para manter a atenção.</p></article><article><b>03</b><h3>Acabamento visual</h3><p>Motion, legendas e sound design com intenção, sem excesso.</p></article></div></section>
@@ -52,7 +53,7 @@
   <section class="cta" id="contato"><p class="eyebrow">TEM UM PROJETO EM MENTE?</p><h2>Vamos criar algo<br>que vale a pena <span>assistir.</span></h2><p>Conte-me sobre seu conteúdo e vamos descobrir como elevar seus próximos vídeos.</p><button class="open-contact cta-contact" type="button">COMEÇAR UM PROJETO →</button></section>
 </main>
 
-<footer><a class="logo" href="#inicio"><span>v</span> @vdr_byeditor</a><div><a href="https://www.instagram.com/vdr_byeditor/" target="_blank" rel="noreferrer"><b>@</b> Instagram</a><button class="open-contact" type="button">✉ E-mail</button></div><p>© 2026 · TODOS OS DIREITOS RESERVADOS</p></footer>
+<footer><a class="logo" href="#inicio"><img class="logo-avatar" src="assets/vitor-editor.jpg" alt="Foto de Vitor"> @vdr_byeditor</a><div><a href="https://www.instagram.com/vdr_byeditor/" target="_blank" rel="noreferrer"><b>@</b> Instagram</a><button class="open-contact" type="button">✉ E-mail</button></div><p>© 2026 · TODOS OS DIREITOS RESERVADOS</p></footer>
 
 <div class="modal" id="video-modal" aria-hidden="true"><div class="modal-backdrop" data-close="video"></div><div class="video-dialog" role="dialog" aria-modal="true" aria-labelledby="video-title"><button class="modal-close" type="button" data-close="video" aria-label="Fechar vídeo">×</button><div class="video-embed"><iframe id="video-frame" title="Vídeo do portfólio" allow="autoplay; encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="local-player-note" id="local-player-note">O YouTube bloqueia o player quando o arquivo é aberto diretamente pelo Windows. Publique no GitHub Pages para testar a reprodução dentro do site.</p></div><h2 id="video-title"></h2></div></div>
 

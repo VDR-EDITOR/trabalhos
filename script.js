@@ -4,6 +4,24 @@ const contactModal = document.querySelector('#contact-modal');
 const videoFrame = document.querySelector('#video-frame');
 const videoTitle = document.querySelector('#video-title');
 const localPlayerNote = document.querySelector('#local-player-note');
+const menuToggle = document.querySelector('#menu-toggle');
+const siteNav = document.querySelector('#site-nav');
+
+menuToggle.addEventListener('click', () => {
+  const isOpen = siteNav.classList.toggle('is-open');
+  menuToggle.classList.toggle('is-open', isOpen);
+  menuToggle.setAttribute('aria-expanded', String(isOpen));
+  menuToggle.setAttribute('aria-label', isOpen ? 'Fechar menu' : 'Abrir menu');
+});
+
+siteNav.querySelectorAll('a, button').forEach((item) => {
+  item.addEventListener('click', () => {
+    siteNav.classList.remove('is-open');
+    menuToggle.classList.remove('is-open');
+    menuToggle.setAttribute('aria-expanded', 'false');
+    menuToggle.setAttribute('aria-label', 'Abrir menu');
+  });
+});
 
 function openModal(modal) {
   modal.classList.add('is-open');
