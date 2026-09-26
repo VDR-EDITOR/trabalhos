@@ -1,0 +1,34 @@
+PORTFÓLIO VDR — VERSÃO 15
+
+COMO ATUALIZAR
+1. Extraia este ZIP.
+2. No repositório que já publica seu site, substitua index.html, style.css e script.js.
+3. Mantenha a pasta assets junto de index.html, com as imagens deste pacote.
+4. Faça o commit e aguarde a publicação do GitHub Pages terminar.
+5. Abra o endereço público do site. Não envie o ZIP fechado como se fosse a página.
+
+O site continua estático, sem instalação, build ou servidor do ChatGPT.
+Os vídeos continuam incorporados pelo YouTube e tocam dentro da página.
+Para conferir a reprodução, use o endereço do GitHub Pages: abrir index.html
+diretamente como arquivo local pode impedir o player do YouTube.
+
+NESTA VERSÃO
+- Design do PC preservado; alterações visuais restritas às regras de mobile.
+- No celular: título mais compacto, foto antes dos botões e timeline abaixo.
+- Foto com tamanho controlado, botões claros e espaçamentos mais equilibrados.
+- Sobre mim segue em destaque, com leitura confortável.
+- Menos espaços vazios entre trabalhos, feedbacks e contato no celular.
+- Tratamento específico para celulares na horizontal.
+- Conteúdo, vídeos, navegação e funcionamento das janelas preservados.
+
+CONFERÊNCIA APÓS PUBLICAR
+Confira o menu, os links Sobre e Feedbacks, a janela de contato, a cópia do
+e-mail e a abertura/fechamento dos cinco vídeos, em retrato e paisagem.
+O código, as dimensões previstas e as interações simuladas foram verificados;
+a validação visual em navegadores reais não pôde ser feita neste ambiente.
+
+ARQUIVOS EDITÁVEIS
+index.html: conteúdo e links.
+style.css: cores, tamanhos, layout e responsividade.
+script.js: menu, janelas, player, cópia de e-mail e pausa do carrossel.
+assets: sua foto e as capas locais já existentes.
